@@ -1,27 +1,16 @@
 /*
 	CS201-001 Fall 2021
-	Professor: Brandon Dixon
 
 	Data Structures Library 
-	Current Rev: Phase 3 
-				(This version of CDA is being used as a support file for phase 3)
+	Current Rev: Phase 3 			
 	
 	Author: Ansel Herndon
-	CWID:	11879859
 */
 /* 
-	Persisting Issues:
-		Copy constructor does not appear to work
-		Search and Select is inconsistent
-			This may be an issue with the shadow array,
-			indices are likely inaccurate
-		Doesn't seem to work with non-integer datatypes
-		Quicksort is struggling to organize head and tail values
-
 	Revisions:
 		Fixed partition function to use real indices not relative
 		Sorted using mergeSort instead of Quicksort
-		Arguments in recursive call for quick select were wrong
+		Fixed arguments in recursive call for quick select
 
 */
 
