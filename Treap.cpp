@@ -1,34 +1,19 @@
 /*
 	CS201-001 Fall 2021
-	Professor: Brandon Dixon
 
 	Data Structures Library 
 	Current Rev: Phase 2
 				10/15/2021
 	
 	Author: Ansel Herndon
-	CWID:	11879859
 */
 
-/* 	Post Submission 1:
-
-	Persisting Issues:
-		Successor and Predecessor Functions
-			Currently returns the given k every time,
-			Therefore its likely that the functions finish in the else condition every time (successor/predecessor not found, return k)
-			
-		Remove Function + delNode helper function
-			The correct node is being removed but the tree is not being rebuilt properly,
-			specifically when the node to be removed has two children.
-			This issue may resolve itself when the predNode helper function is fixed
-
+/* 	
 	Revisions:
 		Successor and Predecessor:
 			Added cases for when pred/succ is not in a subtree of the node in question
 		Remove Function
 			Error in rotateRight helper function. Resolved. 
-
-		
 
 */
 
