@@ -1,2 +1,2 @@
 # Data-Structures-Library
-Project portfolio from Data Structures and Algorithms (C++) 
+Project portfolio from Data Structures and Algorithms
